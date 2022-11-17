@@ -18,11 +18,11 @@
     />
 
     <link rel="stylesheet" href="./style.css" />
-    <title>PRD Practice</title>
+    <title>Landing Page</title>
   </head>
   <body>
     <div id="nav-bar">
-      <a href="/">
+      <a href="/" class="nav-logo">
         <i class="fas fa-laptop-code"></i>
         Logo
       </a>
@@ -34,6 +34,18 @@
         <a href="#"><i class="fas fa-envelope"></i>Contact</a>
       </div>
       <button class="mobile-menu-btn">Menu<i class="fas fa-bars"></i></button>
+      <div class="mobile-menu-container">
+        <div>
+          <span class="close-menu-btn">&times;</span>
+        </div>
+        <div class="nav-mobile-menu-lists">
+          <a href="#about"><i class="fas fa-exclamation-circle"></i>About</a>
+          <a href="#team"><i class="fas fa-user"></i>Team</a>
+          <a href="#work"><i class="fas fa-th"></i>Work</a>
+          <!-- <a href="#"><i class="fas fa-dollar-sign"></i>Pricing</a> -->
+          <a href="#"><i class="fas fa-envelope"></i>Contact</a>
+        </div>
+      </div>
     </div>
     <div id="hero" class="hero-container">
       <!-- <img src="./assets/background.jpg" alt="background" width="100%" /> -->
@@ -198,5 +210,6 @@
         <p>&copy; 2022 Powered by VuTT9. All Rights Reserved.</p>
       </div>
     </footer>
+    <script src="./app.js" defer></script>
   </body>
 </html>
